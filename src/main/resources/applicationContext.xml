@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 把一个对象放进Spring容器 -->
+    <bean name="s1" class="Student">
+        <property name="id" value="1"></property>
+        <property name="name" value="小红"></property>
+        <property name="age" value="18"></property>
+        <property name="sex" value="2"></property>
+        <property name="address" value="中国"></property>
+        <constructor-arg ref="d1" />
+        <constructor-arg ref="d2" />
+    </bean>
+    <!-- 把另一个对象也放到spring容器中，对象的名字不能重复，否则运行会报错 -->
+    <!-- 用property设置对象的属性，那该对象要有setter方法，还要有一个无参数的构造方法 -->
+    <bean name="s2" class="Student">
+        <property name="id" value="2"></property>
+        <property name="name" value="小白"></property>
+        <property name="age" value="16"></property>
+        <property name="sex" value="1"></property>
+        <property name="address" value="中国"></property>
+        <constructor-arg ref="d1" />
+        <constructor-arg ref="d2" />
+    </bean>
+
+    <bean id="d1" class="Di01"/>
+    <bean id="d2" class="Di02"/>
+</beans>
