@@ -1,16 +1,27 @@
+import java.util.Random;
 
 public class Student {
-    private Di01 d1;
+    private Di01 d1;//构造方法注入的成员变量
     private Di02 d2;
-    private Integer id;
+
+    private Di02 d3;//Setter方法注入的成员变量
+    public Di02 getD3() {
+        return d3;
+    }
+    //通过Setter方法注入
+    public void setD3(Di02 d3) {
+        this.d3 = d3;
+    }
+
+    private int id;
     private String name;
     private Integer age;
     private Integer sex;
     private String address;
-    public Integer getId() {
+    public int getId() {
         return id;
     }
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getName() {
@@ -51,7 +62,5 @@ public class Student {
     public Student(Di01 di01, Di02 di02){
         this.d1 = di01;
         this.d2 = di02;
-
-
     }
 }
