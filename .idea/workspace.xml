@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bd3362-2745-4086-8ede-b184deaf7018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/AutowireBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mysqldb.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/instantiationAwareBeanPostProcessor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/instantiationAwareBeanPostProcessor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/instantiationAwareBeanPostProcessor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instantiationAwareBeanPostProcessor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/TestFb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/TestFb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+            <state relative-caret-position="287">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -356,16 +343,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="anotationUsage" type="462c0819:PsiDirectoryNode" />
-              <item name="autowireAndQualifier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="InstantiationAwareBeanPostProcessor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,7 +361,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577591002727" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577591532682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -538,7 +515,7 @@
       <workItem from="1577320007531" duration="14171000" />
       <workItem from="1577407132524" duration="10698000" />
       <workItem from="1577440330339" duration="1255000" />
-      <workItem from="1577583513769" duration="7020000" />
+      <workItem from="1577583513769" duration="7541000" />
     </task>
     <servers />
   </component>
@@ -575,13 +552,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117904000" />
+    <option name="totallyTimeSpent" value="118425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.23525469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="1" sideWeight="0.4599156" side_tool="true" weight="0.23927614" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -590,13 +567,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28895184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28895184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44050992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33002833" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" />
@@ -1117,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        <state relative-caret-position="287">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

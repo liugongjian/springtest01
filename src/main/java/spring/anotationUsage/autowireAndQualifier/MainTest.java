@@ -13,6 +13,12 @@ public class MainTest {
     /**
      * @Autowired:自动注入原理：
      * 1. 默认有限按照【类型】去容器中找, 如果类型有重复的，会再根据bean的名字来查找，这种情况可以用@Qualifier+@Autowired来区别
+     * 2. 可以用@Autowired(require=false)，可以不必非要有声明@Component的类
+     * 3. 也可以使用@Primary+@Component来声明首选使用的类注册bean，也可以搭配@Qualifier使用
+     *
+     *
+     * 4.Spring也支持@Resource（JSR250）和@Inject(JSR330)——来自java自己的规范注解，实现自动装配
+     * 但是无法和@Qualifier和@Primary一起使用
      */
     @Test
     public void test1(){
