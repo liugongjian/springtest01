@@ -60,15 +60,15 @@ public class MyInstantiationAwareBeanPostProcessor implements InstantiationAware
 
         ApplicationContext ac = new ClassPathXmlApplicationContext("instantiationAwareBeanPostProcessor.xml");
         TestFb testFb = ac.getBean(TestFb.class);
-        //testFb.dosomething();
-        System.out.println(testFb.getDb_username());
-        System.out.println(testFb.getDb_password());
+        testFb.dosomething();
+//        System.out.println(testFb.getDb_username());
+//        System.out.println(testFb.getDb_password());
 
-        //properties文件的属性，被读取到Enviroment类实例中
-        ConfigurableEnvironment environment = ((ClassPathXmlApplicationContext) ac).getEnvironment();
-        String property = environment.getProperty("db.username");
-        System.out.println(property);
-        ((ClassPathXmlApplicationContext) ac).close();
+//        //properties文件的属性，被读取到Enviroment类实例中
+//        ConfigurableEnvironment environment = ((ClassPathXmlApplicationContext) ac).getEnvironment();
+//        String property = environment.getProperty("db.username");
+//        System.out.println(property);
+//        ((ClassPathXmlApplicationContext) ac).close();
     }
 
 }

@@ -10,8 +10,9 @@ public class invoker {
     public static void main(String[] args) {
         abstractClz ainstance = new extendsClz();
         ainstance.method();
-         ConfigurableApplicationContext fs = new AnnotationConfigApplicationContext();
-        System.out.println(fs.CONFIG_LOCATION_DELIMITERS);
+
+//        ConfigurableApplicationContext fs = new AnnotationConfigApplicationContext();
+//        System.out.println(fs.CONFIG_LOCATION_DELIMITERS);
     }
 
 }

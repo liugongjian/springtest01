@@ -8,4 +8,7 @@
     <bean name="ib1" class="spring.InstantiationAwareBeanPostProcessor.TestFb">
         <property name="db_username" value="${db.username}"></property>
     </bean>
+    <bean id="intercept" class="spring.InstantiationAwareBeanPostProcessor.MyMethodInterceptor">
+
+    </bean>
 </beans>
