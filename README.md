@@ -75,6 +75,6 @@ refresh()->finishBeanFactoryInitialization(beanFactory),完成beanFactory初始�
     (1)将增强器转为List<MethodInterceptor>:如果是MethodInterceptor，直接加入到集合中；如果不是，使用AdvisorAdapter将增强器转化为Interceptor
     转换完成
   ####拦截器链执行---CglibMethodInvocation.proceed()：实际使用反射invoke():   
-      
+      [执行流程](https://github.com/liugongjian/springtest01/blob/master/AOP%E5%BA%95%E5%B1%82%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
   
   
