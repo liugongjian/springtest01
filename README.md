@@ -65,5 +65,16 @@ refresh()->finishBeanFactoryInitialization(beanFactory),完成beanFactory初始�
   （4.4.3） 首选jdk代理，如果没有实现接口，则使用cglib   
   （4.4.5） wrapIfNessesary()返回当前组件使用cglib增强了的代理对象，以后该对象的执行都会走代理对象的方法           
   
+  ###3.代理的对象是如何工作的：
+  容器中保存了组件的代理对象（cglib增强后的对象），这个对象里面保存了详细信息（比如增强器，目标对象，XXX）；   
+  （1）CglibAopProxy.intercept(),拦截目标方法的执行          
+  （2）根据ProxyFactory对象，获取拦截器链（每一个通知方法又被包装为方法拦截器，都是利用MethodInterceptor执行）         
+  （3）如果没有拦截器链，直接执行目标方法     
+  （4）如果有拦截器链，创建CglibMethodInvocation（需要执行的目标对象，目标方法，拦截器链传入），并调用proceed()    
+  ####拦截器链（getInterceptorsAndDynamicInterceptionAdvice）生成：      
+    (1)将增强器转为List<MethodInterceptor>:如果是MethodInterceptor，直接加入到集合中；如果不是，使用AdvisorAdapter将增强器转化为Interceptor
+    转换完成
+  ####拦截器链执行---CglibMethodInvocation.proceed()：实际使用反射invoke():   
+      
   
- 
+  
