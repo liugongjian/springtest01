@@ -53,26 +53,27 @@ applicationContext.refresh();
 refresh()->finishBeanFactoryInitialization(beanFactory),完成beanFactory初始化，创建剩下的singlton实例（非lazy）：     
 （1）getBean()->doGetBean()->getSingleton()->如果之前没创建过，调用createBean()
  (2) createBean():    
- (2.1) resolveBeforInstantiation(beanName,mdbToUse)：解析BeforeInstantiation，希望BeanPostProcessor能在此返回一个代理对象，如果能返回代理对象就使用，如果不能就调用doCreateBean()，和第一部分创建bean的流程是一样的   
+ &emsp;(2.1) resolveBeforInstantiation(beanName,mdbToUse)：解析BeforeInstantiation，希望BeanPostProcessor能在此返回一个代理对象，如果能返回代理对象就使用，如果不能就调用doCreateBean()，和第一部分创建bean的流程是一样的   
  （3）每一个bean创建之前，调用**postProcessBeforeInstantiation()**:     
   (4) MathCalculator（被切类）和LogAspect（切面类）：    
-  (4.1) 判断当前bean是否在advisedBeans中（保存了所有需要增强的bean——被切的类实例），第一次初始化是不在里面的     
-  (4.2) 判断当前bean是否是基础类型的Advice/Pointcut/Advisor/AopInfrastructureBean  判断是否是切面类（@Aspect）     
-  (4.3) 判断是否跳过——获取增强器（Advisor）就是@Before @After等通知的方法——InstantiationModelAwarePointcutAdvisor; 该步会返回false    
-  (4.4) **postProcessAfterInstantiation()** 中return wrapIfNessesary()     
-  (4.4.1) wrapIfNessesary()做了获取当前bean的所有增强器（通知方法）--》找到当前bean能使用的增强器——》给增强器排序——》增强器封装成一个Object[]，而bean保存在advisedBeans中    
-  （4.4.2） 如果当前bean需要增强，创建当前bean的**代理**对象—》获取所有增强器（通知方法）——》保存到proxyFactory——》创建对象，**Spring自主决定创建**：JdkDynamicAopProxy(config):jdk动态代理、ObjenesisCglibAopProxy(config):cglib    
-  （4.4.3） 首选jdk代理，如果没有实现接口，则使用cglib   
-  （4.4.5） wrapIfNessesary()返回当前组件使用cglib增强了的代理对象，以后该对象的执行都会走代理对象的方法           
+ &emsp; (4.1) 判断当前bean是否在advisedBeans中（保存了所有需要增强的bean——被切的类实例），第一次初始化是不在里面的     
+ &emsp; (4.2) 判断当前bean是否是基础类型的Advice/Pointcut/Advisor/AopInfrastructureBean  判断是否是切面类（@Aspect）     
+ &emsp; (4.3) 判断是否跳过——获取增强器（Advisor）就是@Before @After等通知的方法——InstantiationModelAwarePointcutAdvisor; 该步会返回false    
+ &emsp; (4.4) **postProcessAfterInstantiation()** 中return wrapIfNessesary()     
+ &emsp;&emsp; (4.4.1) wrapIfNessesary()做了获取当前bean的所有增强器（通知方法）--》找到当前bean能使用的增强器——》给增强器排序——》增强器封装成一个Object[]，而bean保存在advisedBeans中    
+ &emsp;&emsp; （4.4.2） 如果当前bean需要增强，创建当前bean的**代理**对象—》获取所有增强器（通知方法）——》保存到proxyFactory——》创建对象，**Spring自主决定创建**：JdkDynamicAopProxy(config):jdk动态代理、ObjenesisCglibAopProxy(config):cglib    
+ &emsp;&emsp; （4.4.3） 首选jdk代理，如果没有实现接口，则使用cglib   
+ &emsp;&emsp; （4.4.5） wrapIfNessesary()返回当前组件使用cglib增强了的代理对象，以后该对象的执行都会走代理对象的方法           
   
   ###3.代理的对象是如何工作的：
   容器中保存了组件的代理对象（cglib增强后的对象），这个对象里面保存了详细信息（比如增强器，目标对象，XXX）；   
   （1）CglibAopProxy.intercept(),拦截目标方法的执行          
-  （2）根据ProxyFactory对象，获取拦截器链（每一个通知方法又被包装为方法拦截器，都是利用MethodInterceptor执行）         
+  （2）根据ProxyFactory对象，获取拦截器链（拦截器链，其实就是拦截的通知方法，每一个通知方法又被包装为方法拦截器，都是利用MethodInterceptor执行）         
   （3）如果没有拦截器链，直接执行目标方法     
-  （4）如果有拦截器链，创建CglibMethodInvocation（需要执行的目标对象，目标方法，拦截器链传入），并调用proceed()    
+  （4）如果有拦截器链，创建CglibMethodInvocation（需要执行的目标对象，目标方法，拦截器链传入），并调用
+  retVal = new CglibMethodInvocation(proxy, target, method, args, targetClass, chain, methodProxy).proceed();      
   ####拦截器链（getInterceptorsAndDynamicInterceptionAdvice）生成：      
-    (1)将增强器转为List<MethodInterceptor>:如果是MethodInterceptor，直接加入到集合中；如果不是，使用AdvisorAdapter将增强器转化为Interceptor
+    (1)将所有的增强器转为List<MethodInterceptor>:如果是MethodInterceptor，直接加入到集合中；如果不是，使用AdvisorAdapter将增强器转化为Interceptor
     转换完成
   ####拦截器链执行---CglibMethodInvocation.proceed()：实际使用反射invoke():   
       [执行流程](https://github.com/liugongjian/springtest01/blob/master/AOP%E5%BA%95%E5%B1%82%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png)
