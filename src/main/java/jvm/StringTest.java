@@ -14,6 +14,7 @@ public class StringTest {
         return;
     }
     public static void main(String[] args) throws InterruptedException {
+        
         String s = "1"+"2"+"3";
         String s1 = "hello";
         final String s4 = "hello";

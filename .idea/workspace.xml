@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bd3362-2745-4086-8ede-b184deaf7018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/GC/GC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/StrongWeakReference/ReferenceGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Callable01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ExecutorService01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Thread01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jvm/GC/TestDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Atomic/AtomicI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Volatile/VU2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Volatile/VolatileAssembly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/Volatile/volatileUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/WrongSynchronized/WrongSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/countDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/waitNnotify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/ClassInit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/ClassInit$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/ClassInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/ClassInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jvm/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jvm/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jvm/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/StringTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +31,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/ClassInit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/Atomic/AtomicI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="133">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,10 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/MyServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,68 +76,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+        <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="169" column="44" lean-forward="true" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/GenericServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="126">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#7758#7759#0" expanded="true" />
+                <element signature="e#7798#7799#0" expanded="true" />
+                <element signature="e#15434#15435#0" expanded="true" />
+                <element signature="e#15465#15466#0" expanded="true" />
+                <element signature="e#19817#19818#0" expanded="true" />
+                <element signature="e#19855#19856#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.java">
+        <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="1301" selection-start-line="1301" selection-end-line="1301" />
+              <folding>
+                <element signature="e#24536#24537#0" expanded="true" />
+                <element signature="e#24568#24569#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/anotationUsage/MyCustomTypeFilter.java">
+        <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="834" selection-start-line="834" selection-end-line="834" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/Callable01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/thread/Thread01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="171">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#78#79#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>finishBeanFactoryInitialization</find>
       <find>getSingleton</find>
       <find>createBean</find>
       <find>getBeanFactory</find>
@@ -160,6 +192,7 @@
       <find>execute</find>
       <find>HadoopUtil</find>
       <find>Config</find>
+      <find>get</find>
     </findStrings>
     <dirStrings>
       <dir>D:\9-Workspace\Java\springtest01\target\classes\jvm</dir>
@@ -175,21 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/ColorFactoryBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/MainConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mysqldb.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/AutowireBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/Bean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/autowireAndQualifier/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/awareSelfDefineAnnotation/Red.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/awareSelfDefineAnnotation/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/awareSelfDefineAnnotation/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/anotationUsage/awareSelfDefine/Red.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/MyMethodInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/instantiationAwareBeanPostProcessor.xml" />
         <option value="$PROJECT_DIR$/src/main/java/aop/MainConfigOfAOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/aop/MathCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/FrameInterface/FrameInterface.java" />
@@ -223,9 +241,24 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/Thread01.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/ExecutorService01.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/GC/GC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jvm/StringTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/MyServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jvm/GC/TestDirect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Volatile/volatileUsage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Volatile/VU2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/WrongSynchronized/WrongSynchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/useless.java" />
+        <option value="$PROJECT_DIR$/src/main/java/useless2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/waitNnotify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/waitAndnotify/countDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Volatile/VolatileAssembly.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/Atomic/AtomicI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock5.java" />
       </list>
     </option>
   </component>
@@ -261,6 +294,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,42 +327,89 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="Atomic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="bddwh-market-tour-1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="ReentrantLock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="bddwh-market-tour-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="Volatile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="bddwh-market-tour-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="tourist" type="462c0819:PsiDirectoryNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="waitAndnotify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="WrongSynchronized" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="waitAndnotify" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578558405754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578966971703" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -337,16 +419,20 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.waitAndnotify" />
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="spring" />
       <recent name="delegate" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\9-Workspace\Java\springtest01\src\main\resources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="spring.BeanDefinitionRegistryPostProcessor" />
       <recent name="spring.BeanPostProcessor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\9-Workspace\Java\springtest01\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,9 +447,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringTest">
-    <configuration name="Callable01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.Callable01" />
+  <component name="RunManager" selected="Application.ReentrantLock5">
+    <configuration name="ReentrantLock3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ReentrantLock.ReentrantLock3" />
+      <module name="springtest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.ReentrantLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLock4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ReentrantLock.ReentrantLock4" />
+      <module name="springtest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.ReentrantLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReentrantLock5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ReentrantLock.ReentrantLock5" />
+      <module name="springtest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.ReentrantLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Synchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.Synchronized" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
@@ -375,53 +500,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorService01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.ExecutorService01" />
-      <module name="springtest01" />
-      <option name="VM_PARAMETERS" value="-Xms0.1m -Xmx0.2m -Xmn0.3m -XX:PrintGCDetails -XX:+UseConcMarkSweepGC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.GC.GC" />
-      <module name="springtest01" />
-      <option name="VM_PARAMETERS" value="-Xms30m -Xmx50m -Xmn10m -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JVMInspect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.JVMInspect" />
+    <configuration name="VolatileAssembly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.Volatile.VolatileAssembly" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.StringTest" />
-      <module name="springtest01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="thread.Volatile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +524,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GC" />
-      <item itemvalue="Application.Callable01" />
-      <item itemvalue="Application.ExecutorService01" />
-      <item itemvalue="Application.JVMInspect" />
-      <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.VolatileAssembly" />
+      <item itemvalue="Application.Synchronized" />
+      <item itemvalue="Application.ReentrantLock3" />
+      <item itemvalue="Application.ReentrantLock4" />
+      <item itemvalue="Application.ReentrantLock5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.JVMInspect" />
-        <item itemvalue="Application.GC" />
-        <item itemvalue="Application.ExecutorService01" />
-        <item itemvalue="Application.Callable01" />
+        <item itemvalue="Application.ReentrantLock5" />
+        <item itemvalue="Application.ReentrantLock4" />
+        <item itemvalue="Application.ReentrantLock3" />
+        <item itemvalue="Application.Synchronized" />
+        <item itemvalue="Application.VolatileAssembly" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +577,10 @@
       <workItem from="1578442859990" duration="3446000" />
       <workItem from="1578470010696" duration="1945000" />
       <workItem from="1578478309761" duration="3127000" />
-      <workItem from="1578530306955" duration="7024000" />
+      <workItem from="1578530306955" duration="8367000" />
+      <workItem from="1578616987707" duration="1359000" />
+      <workItem from="1578875549746" duration="20526000" />
+      <workItem from="1578961739173" duration="4126000" />
     </task>
     <servers />
   </component>
@@ -530,7 +617,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241559000" />
+    <option name="totallyTimeSpent" value="268913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +632,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.20107238" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" sideWeight="0.4599156" side_tool="true" weight="0.23927614" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -554,7 +641,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27478755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38668555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44050992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -719,303 +806,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1061">
-          <caret line="1456" column="28" selection-start-line="1456" selection-start-column="28" selection-end-line="1456" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/StrongWeakReference/ReferenceGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="527" column="50" lean-forward="true" selection-start-line="527" selection-start-column="50" selection-end-line="527" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1293" column="7" lean-forward="true" selection-start-line="1293" selection-start-column="7" selection-end-line="1293" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Thread01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.Executor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.Executor</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.Executor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Callable01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ExecutorService01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6308">
-          <caret line="366" column="7" selection-start-line="366" selection-start-column="7" selection-end-line="366" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="551" column="42" lean-forward="true" selection-start-line="551" selection-start-column="42" selection-end-line="551" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/apache-maven-3.6.0/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/apache-maven-3.6.0/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5263">
-          <caret line="317" column="9" selection-start-line="317" selection-start-column="9" selection-end-line="317" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/default.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="45" column="65" lean-forward="true" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/GC/GC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/common/el/HiveFunc.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/exception/HbaseStorageException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/scenic/tourist/Constant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/scenic/tourist/Destination.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/scenic/tourist/OriginsAndDestination.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/scenic/tourist/Scenic.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/cn/ctyun/bigdata/bdse/tour/scenic/tourist/ScenicInfoETL.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jvm/JVMInspect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jvm/ClassInit.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jvm/StrongWeakReference/ReferenceGC.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jvm/GC/GC.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/jvm/StringTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23180">
-          <caret line="1281" column="11" selection-start-line="1281" selection-start-column="11" selection-end-line="1281" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/JVMInspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/SingletonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/MyBeanDefinitionRegistryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/anotationUsage/MyCustomTypeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/ClassInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1061,27 +848,343 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/MyServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/ClassInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="169" column="44" lean-forward="true" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
+        <state relative-caret-position="2755">
+          <caret line="169" column="44" selection-start-line="169" selection-start-column="44" selection-end-line="169" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/MyServlet.java">
+    <entry file="jar://D:/Program Files/apache-maven-3.6.0/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/GC/GC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/FatherAndInterfaceWhoIsFirst/FatherInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/anotationUsage/MyCustomTypeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/TestFb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jvm/GC/TestDirect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ExecutorService01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Volatile/VU2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="13" selection-start-line="13" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="2193" column="41" lean-forward="true" selection-start-line="2193" selection-start-column="41" selection-end-line="2193" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="349" column="29" selection-start-line="349" selection-start-column="29" selection-end-line="349" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Volatile/volatileUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Volatile/VolatileAssembly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/VolatileAssembly.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/volatileUsage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/VU2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/countDownLatch.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/waitNnotify.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/waitNnotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/WrongSynchronized/WrongSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="327" column="46" lean-forward="true" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/countDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2603">
+          <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Synchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding>
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6340#6341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Callable01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Thread01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Atomic/AtomicI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1301" selection-start-line="1301" selection-end-line="1301" />
+          <folding>
+            <element signature="e#24536#24537#0" expanded="true" />
+            <element signature="e#24568#24569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#7758#7759#0" expanded="true" />
+            <element signature="e#7798#7799#0" expanded="true" />
+            <element signature="e#15434#15435#0" expanded="true" />
+            <element signature="e#15465#15466#0" expanded="true" />
+            <element signature="e#19817#19818#0" expanded="true" />
+            <element signature="e#19855#19856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/ReentrantLock/ReentrantLock5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1142,6 +1245,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
