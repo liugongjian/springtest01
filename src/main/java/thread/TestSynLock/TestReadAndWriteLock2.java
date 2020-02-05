@@ -22,12 +22,12 @@ public class TestReadAndWriteLock2 {
         //同时读、写
         ExecutorService service = Executors.newCachedThreadPool();
 
-        Thread readThread1 = new Thread("Read Thread");
+        final Thread readThread1 = new Thread("Read Thread");
         Thread readThread2 = new Thread("Read Thread");
-        Thread writeThread1 = new Thread("Write Thread");
-        Thread writeThread2 = new Thread("Write Thread");
+        final Thread writeThread1 = new Thread("Write Thread");
+        final Thread writeThread2 = new Thread("Write Thread");
         service.execute(new Runnable() {
-            @Override
+
             public void run() {
                 readFile(readThread1);
             }
@@ -38,18 +38,18 @@ public class TestReadAndWriteLock2 {
 //                readFile(readThread2);
 //            }
 //        });
-        service.execute(new Runnable() {
-            @Override
-            public void run() {
-                writeFile(writeThread1);
-            }
-        });
-        service.execute(new Runnable() {
-            @Override
-            public void run() {
-                writeFile(writeThread2);
-            }
-        });
+//        service.execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                writeFile(writeThread1);
+//            }
+//        });
+//        service.execute(new Runnable() {
+//            @Override
+//            public void run() {
+//                writeFile(writeThread2);
+//            }
+//        });
 
 
 
