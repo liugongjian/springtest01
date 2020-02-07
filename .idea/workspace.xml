@@ -2,124 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bd3362-2745-4086-8ede-b184deaf7018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Joseph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/PolandNotion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Assemble.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Di01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Di01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Di02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Di02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FrameInterface/FrameContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FrameInterface/FrameContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FrameInterface/FrameInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FrameInterface/FrameInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FrameInterface/InvokFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FrameInterface/InvokFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/DadInt1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/DadInt1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/DadInt2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/DadInt2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/FactClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/FactClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/FactClz2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/FactClz2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/SonFactClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/SonFactClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/SonInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InterfaceMultiExtends/SonInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/AdbOperate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/AdbOperate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/BdbOperate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/BdbOperate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/IAdbOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/IAdbOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/IBdbOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/IBdbOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/ISelectRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/ISelectRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SqlMultiInterface/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SqlMultiInterface/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentIDFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentIDFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstrUsage/abstractClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/abstrUsage/abstractClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstrUsage/extendsClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/abstrUsage/extendsClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstrUsage/invoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/abstrUsage/invoker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop/LogAspects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aop/LogAspects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop/MainConfigOfAOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aop/MainConfigOfAOP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aop/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/aop/MathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aop/MathCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/delegate/cglib/CglibProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/delegate/cglib/CglibProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/delegate/cglib/Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/delegate/cglib/Impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/delegate/jdk/Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/delegate/jdk/Facade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/delegate/jdk/FacadeImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/delegate/jdk/FacadeImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/delegate/jdk/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/delegate/jdk/Proxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/ClassInit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/ClassInit$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/ClassInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/ClassInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/FatherClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/FatherClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/FatherInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/FatherInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/SonClz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/FatherAndInterfaceWhoIsFirst/SonClz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/GC/GC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/GC/GC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/GC/TestDirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/GC/TestDirect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/JVMInspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/JVMInspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jvm/StrongWeakReference/ReferenceGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/StrongWeakReference/ReferenceGC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/AfterMethodIntercept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/AfterMethodIntercept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/AfterReturningMethodIntercept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/AfterReturningMethodIntercept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/BeforeMethodIntercept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/BeforeMethodIntercept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/IMethodIntercept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/IMethodIntercept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/Invoker$AopProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/Invoker$AopProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/Invoker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/Invoker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/recursiveUsage/ReflecMethInvocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/recursiveUsage/ReflecMethInvocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/MyBeanDefinitionRegistryPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/MyBeanDefinitionRegistryPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/SingletonBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/BeanDefinitionRegistryPostProcessor/SingletonBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyInstantiationAwareBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyMethodInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/MyMethodInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/TestFb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/InstantiationAwareBeanPostProcessor/TestFb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/ColorFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/ColorFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MVCAnotationBean/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MyCustomTypeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/MyCustomTypeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/AutowireBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/AutowireBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/Bean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/autowireAndQualifier/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/Red.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/awareSelfDefine/Red.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/bean/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/bean/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/bean/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/condition/LinuxCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/condition/LinuxCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/anotationUsage/condition/WindowsCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/anotationUsage/condition/WindowsCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/TestReadAndWriteLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Atomic/AtomicI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Atomic/AtomicI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Callable01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Callable01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Container/MyContainer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Container/MyContainer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Container/MyContainer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Container/MyContainer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ExecutorService01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ExecutorService01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ExecutorService01$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ExecutorService01$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ExecutorService01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ExecutorService01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/ReentrantLock/ReentrantLock5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Singleton/Singleton$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Singleton/Singleton$Inner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Singleton/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Synchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestBiasedLocking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestBiasedLocking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestDisorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestLockSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestLockSupport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TestSynLock/TestReadAndWriteLock2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Thread01$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Thread01$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Thread01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Thread01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/TicketSeller/TicketSeller4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Volatile/VU2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Volatile/VU2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Volatile/VolatileAssembly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Volatile/VolatileAssembly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/Volatile/volatileUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/Volatile/volatileUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/WrongSynchronized/WrongSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/WrongSynchronized/WrongSynchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/countDownLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/countDownLatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/waitNnotify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/thread/waitAndnotify/waitNnotify.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,51 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/useless2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/waitAndnotify/waitNnotify.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestBiasedLocking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestDisorder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -192,27 +34,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
+            <state relative-caret-position="665">
               <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1634">
+              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Joseph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/PolandNotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
-                <element signature="e#899#1032#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#600#608#0" expanded="true" />
+                <element signature="e#2493#2501#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-              <folding>
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -295,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/recursiveUsage/AfterReturningMethodIntercept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/recursiveUsage/Invoker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/recursiveUsage/ReflecMethInvocation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/InstantiationAwareBeanPostProcessor/PropertySourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/MyBeanDefinitionRegistryPostProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/SingletonBean.java" />
@@ -346,6 +224,10 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Joseph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/PolandNotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java" />
       </list>
     </option>
   </component>
@@ -382,6 +264,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -418,15 +301,6 @@
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
               <item name="springtest01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleLinkedListDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springtest01" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,13 +313,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580891439990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581064332279" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -484,9 +357,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListDemo">
-    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.SingleLinkedListDemo" />
+  <component name="RunManager" selected="Application.MiGong">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.Calculator" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
@@ -498,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDisorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TestSynLock.TestDisorder" />
+    <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.Joseph" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.TestSynLock.*" />
+          <option name="PATTERN" value="Algorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLockSupport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TestSynLock.TestLockSupport" />
+    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.MiGong" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.TestSynLock.*" />
+          <option name="PATTERN" value="Algorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReadAndWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TestReadAndWriteLock" />
+    <configuration name="PolandNotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.PolandNotion" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Algorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReadAndWriteLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TestSynLock.TestReadAndWriteLock2" />
+    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.SingleLinkedListDemo" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.TestSynLock.*" />
+          <option name="PATTERN" value="Algorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -561,19 +434,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestDisorder" />
-      <item itemvalue="Application.TestLockSupport" />
-      <item itemvalue="Application.TestReadAndWriteLock" />
-      <item itemvalue="Application.TestReadAndWriteLock2" />
       <item itemvalue="Application.SingleLinkedListDemo" />
+      <item itemvalue="Application.Joseph" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.PolandNotion" />
+      <item itemvalue="Application.MiGong" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiGong" />
+        <item itemvalue="Application.PolandNotion" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Joseph" />
         <item itemvalue="Application.SingleLinkedListDemo" />
-        <item itemvalue="Application.TestReadAndWriteLock2" />
-        <item itemvalue="Application.TestReadAndWriteLock" />
-        <item itemvalue="Application.TestLockSupport" />
-        <item itemvalue="Application.TestDisorder" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +494,9 @@
       <workItem from="1578993078896" duration="5440000" />
       <workItem from="1579048499709" duration="9156000" />
       <workItem from="1579136770149" duration="3402000" />
-      <workItem from="1580871228919" duration="6726000" />
+      <workItem from="1580871228919" duration="7442000" />
+      <workItem from="1580956491576" duration="8267000" />
+      <workItem from="1581043241241" duration="7887000" />
     </task>
     <servers />
   </component>
@@ -658,7 +533,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301430000" />
+    <option name="totallyTimeSpent" value="318300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +548,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.21983914" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="1" sideWeight="0.4599156" side_tool="true" weight="0.23927614" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -682,18 +557,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44050992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26912183" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.26912183" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.26407507" />
@@ -703,6 +577,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,40 +723,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/Volatile/VolatileAssembly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/VolatileAssembly.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/volatileUsage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/thread/Volatile/VU2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/countDownLatch.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/thread/waitAndnotify/useless2.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342" />
@@ -1147,6 +988,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="735" column="6" selection-start-line="735" selection-start-column="6" selection-end-line="735" selection-end-column="6" />
+          <folding>
+            <element signature="e#28038#28039#0" expanded="true" />
+            <element signature="e#28083#28084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestDisorder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1165,21 +1017,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40660">
-          <caret line="2295" column="59" selection-start-line="2295" selection-start-column="59" selection-end-line="2295" selection-end-column="59" />
+        <state relative-caret-position="665">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thread/TestSynLock/TestReadAndWriteLock2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="e#899#1032#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1634">
+          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Joseph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1190,16 +1052,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java">
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="40660">
+          <caret line="2295" column="59" selection-start-line="2295" selection-start-column="59" selection-end-line="2295" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/PolandNotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#608#0" expanded="true" />
+            <element signature="e#2493#2501#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
         </state>
       </provider>
     </entry>
