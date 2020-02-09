@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bd3362-2745-4086-8ede-b184deaf7018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Queen8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Sort/OptimizedBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/LinkedList/Queen8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algorithm/LinkedList/Queen8.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/SingleLinkedListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Joseph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,17 +50,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="418">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Queen8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="268">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/OptimizedBubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -159,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/MyBeanDefinitionRegistryPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/SingletonBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/BeanDefinitionRegistryPostProcessor/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/FatherClz.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/FatherInterface.java" />
@@ -210,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/PolandNotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Queen8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Sort/OptimizedBubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Sort/SelectionSort.java" />
       </list>
     </option>
   </component>
@@ -277,7 +288,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springtest01" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581156308248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581244353741" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/bddwh-market-tour-1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -310,21 +321,22 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring.BeanDefinitionRegistryPostProcessor" />
+      <recent name="spring.BeanPostProcessor" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Algorithm" />
       <recent name="spring" />
       <recent name="delegate" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\9-Workspace\Java\springtest01\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="thread.TestSynLock" />
       <recent name="thread.waitAndnotify" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="spring.BeanDefinitionRegistryPostProcessor" />
-      <recent name="spring.BeanPostProcessor" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\9-Workspace\Java\springtest01\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,39 +351,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Queen8">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.Calculator" />
-      <module name="springtest01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Joseph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.Joseph" />
-      <module name="springtest01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.MiGong" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algorithm.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptimizedBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Sort.OptimizedBubbleSort" />
+      <module name="springtest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,6 +404,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Sort.SelectionSort" />
+      <module name="springtest01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="D:/Program Files/Java/jdk-12.0.2" />
@@ -416,19 +428,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Joseph" />
-      <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.PolandNotion" />
       <item itemvalue="Application.MiGong" />
       <item itemvalue="Application.Queen8" />
+      <item itemvalue="Application.OptimizedBubbleSort" />
+      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.OptimizedBubbleSort" />
         <item itemvalue="Application.Queen8" />
         <item itemvalue="Application.MiGong" />
         <item itemvalue="Application.PolandNotion" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Joseph" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +491,8 @@
       <workItem from="1580871228919" duration="7442000" />
       <workItem from="1580956491576" duration="8267000" />
       <workItem from="1581043241241" duration="8634000" />
-      <workItem from="1581152721102" duration="3271000" />
+      <workItem from="1581152721102" duration="3586000" />
+      <workItem from="1581236498775" duration="3270000" />
     </task>
     <servers />
   </component>
@@ -516,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322318000" />
+    <option name="totallyTimeSpent" value="325903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +544,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.22587131" />
       <window_info id="Structure" order="1" sideWeight="0.4599156" side_tool="true" weight="0.23927614" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -546,7 +559,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.26912183" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798927" weight="0.23512748" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.3286119" />
@@ -706,20 +719,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="327" column="46" lean-forward="true" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2603">
@@ -977,10 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,6 +983,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="1182" column="32" lean-forward="true" selection-start-line="1182" selection-start-column="32" selection-end-line="1182" selection-end-column="32" />
+          <folding>
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,6 +1028,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
@@ -1043,28 +1056,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/MiGong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1182" column="32" lean-forward="true" selection-start-line="1182" selection-start-column="32" selection-end-line="1182" selection-end-column="32" />
-          <folding>
-            <element signature="e#46227#46228#0" expanded="true" />
-            <element signature="e#46266#46267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/LinkedList/Queen8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="268">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/OptimizedBubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
