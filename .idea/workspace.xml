@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65bd3362-2745-4086-8ede-b184deaf7018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dynamic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Greedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Kruskal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Horse/HorseChessboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/ClassicAlgorithm/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algorithm/ClassicAlgorithm/Dijkstra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/ClassicAlgorithm/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algorithm/ClassicAlgorithm/Graph.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Sort/OptimizedBubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +84,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+            <state relative-caret-position="152">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Horse/HorseChessboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/Container/MyContainer1.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/Container/MyContainer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/Singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/TicketSeller/TicketSeller2.java" />
@@ -227,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Prim.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Kruskal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Horse/HorseChessboard.java" />
       </list>
     </option>
   </component>
@@ -262,7 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +313,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -316,7 +321,7 @@
     <property name="SearchEverywhereHistoryKey" value="DBConfiguration&#9;FILE&#9;jar://C:/Users/liugo/Downloads/asiainfo_URLTag-1.1.28-SNAPSHOT-jar-with-dependencies.jar!/org/apache/hadoop/mapreduce/lib/db/DBConfiguration.class&#10;my&#9;FILE&#9;jar://C:/Users/liugo/Downloads/asiainfo_URLTag-1.1.28-SNAPSHOT-jar-with-dependencies.jar!/org/apache/hadoop/mapreduce/lib/db/MySQLDataDrivenDBRecordReader.class&#10;mysql&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.lib.db.MySQLDBRecordReader" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582509062513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582603918158" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/asiainfo_URLTag-1.1.28-SNAPSHOT-jar-with-dependencies.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -356,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dijkstra">
+  <component name="RunManager" selected="Application.HorseChessboard">
     <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.ClassicAlgorithm.Dijkstra" />
       <module name="springtest01" />
@@ -383,12 +388,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.ClassicAlgorithm.KMP" />
+    <configuration name="HorseChessboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.ClassicAlgorithm.Horse.HorseChessboard" />
       <module name="springtest01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.ClassicAlgorithm.*" />
+          <option name="PATTERN" value="Algorithm.ClassicAlgorithm.Horse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -433,19 +438,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KMP" />
       <item itemvalue="Application.Greedy" />
       <item itemvalue="Application.Prim" />
       <item itemvalue="Application.Kruskal" />
       <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.HorseChessboard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HorseChessboard" />
         <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.Kruskal" />
         <item itemvalue="Application.Prim" />
         <item itemvalue="Application.Greedy" />
-        <item itemvalue="Application.KMP" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +513,8 @@
       <workItem from="1582252363791" duration="6707000" />
       <workItem from="1582356543642" duration="8900000" />
       <workItem from="1582460702292" duration="2697000" />
-      <workItem from="1582506608022" duration="2396000" />
+      <workItem from="1582506608022" duration="5176000" />
+      <workItem from="1582595119760" duration="4773000" />
     </task>
     <servers />
   </component>
@@ -545,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445058000" />
+    <option name="totallyTimeSpent" value="452611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,7 +566,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.26206434" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.54008436" visible="true" weight="0.26541555" />
       <window_info id="Structure" order="1" sideWeight="0.4599156" side_tool="true" weight="0.23927614" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,7 +575,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.4688385" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.4688385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44050992" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,6 +673,18 @@
           <line>35</line>
           <properties />
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Horse/HorseChessboard.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
@@ -776,13 +794,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Search/InsertValueSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Search/FibonacciSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -1104,8 +1115,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+        <state relative-caret-position="152">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ClassicAlgorithm/Horse/HorseChessboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

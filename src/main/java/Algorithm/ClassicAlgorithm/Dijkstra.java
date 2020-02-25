@@ -23,6 +23,9 @@ public class Dijkstra {
 
 
         graph.dsj(6);
+
+        graph.showdjs();
+
     }
 }
 
@@ -40,16 +43,24 @@ class Graph{
         this.matrix = matrix;
 
     }
+    public void showdjs(){
+        vv.show();
+    }
     public void showGraph(){
         for (int[] link : matrix){
             System.out.println(Arrays.toString(link));
         }
     }
 
-    //表示出发顶点对应的下标
+    //index表示出发顶点对应的下标
     public void dsj(int index){
         vv = new VisitedVertex(vertex.length,index);
         update(index);//更新index顶点到周围顶点的距离和前驱顶点
+
+        for (int j = 1; j < vertex.length; j++){
+            index = vv.updateArray();//选择并返回新的访问顶点
+            update(index);
+        }
     }
 
     //更新index下标顶点到周围顶点的距离和周围顶点的前驱节点
@@ -113,6 +124,48 @@ class VisitedVertex{
     public int getDis(int index){
 
         return dis[index];
+    }
+
+    //继续选择并返回新的访问节点，比如这里G访问完后，就是A点作为新的访问节点（注意，不是出发顶点）
+    public int updateArray(){
+        int min = 65535;
+        int index = 0;
+        for (int i = 0 ; i<already_arr.length; i++){
+            if (already_arr[i] == 0 && dis[i] < min){
+                min = dis[i];
+                index = i;
+
+            }
+        }
+        already_arr[index] = 1;
+        return index;
+    }
+
+    public void show(){
+        System.out.println("==============");
+        for (int i:already_arr){
+            System.out.print(i+" ");
+        }
+        System.out.println("");
+        for (int i:pre_visited){
+            System.out.print(i+" ");
+        }
+        System.out.println("");
+        for (int i:dis){
+            System.out.print(i+" ");
+        }
+        System.out.println("");
+        char[] vertex = {'A','B','C','D','E','F','G'};
+        int count = 0;
+        for (int i : dis){
+            if (i != 65535){
+                System.out.print(vertex[count]+"("+i+")");
+            }else {
+                System.out.println("N ");
+            }
+            count++;
+        }
+        System.out.println();
     }
 
 }
